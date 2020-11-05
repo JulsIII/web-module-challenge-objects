@@ -13,9 +13,11 @@ The function should:
   2. Create and return an object using the received values  
 */
 
-function createMenuItem(/*Your code here*/){
-    /*Your code*/
+function createMenuItem(name, price, category){
+    const menuItems = {name:"taco", price: 8, category:"lunch"};
+    return menuItems;
 }
+//console.log(menuItems);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Test your createMenuItems function by doing the following:
