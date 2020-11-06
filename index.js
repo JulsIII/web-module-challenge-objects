@@ -116,9 +116,12 @@ Use the getReviewByIndex function below to do the following:
 */
 
 
-function getReviewByIndex(/*Your code here*/) {
-  /*Your code here*/
+function getReviewByIndex(arreh, indx) {
+
+  return `${arreh[indx].name} gave the restaurant a ${arreh[indx].rating} star review, and their feedback was: ${arreh[indx].feedback}`
 }
+
+//console.lot(getReviewByIndex(reviews, 0));
 
 
   
