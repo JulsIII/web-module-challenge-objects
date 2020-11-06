@@ -121,10 +121,6 @@ function getReviewByIndex(arreh, indx) {
   return `${arreh[indx].name} gave the restaurant a ${arreh[indx].rating} star review, and their feedback was: ${arreh[indx].feedback}`
 }
 
-//console.lot(getReviewByIndex(reviews, 0));
-
-
-  
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Write a function to get information about the most recent (last) review called `getLastReview`
@@ -137,8 +133,8 @@ Use the getLastReview function below to do the following:
 */
 
 
-function getLastReview(/*Your code here*/) {
-  /*Your code here*/
+function getLastReview(arreheh) {
+  return `${arreheh[arreheh.length-1].name} gave the restaurant a ${arreheh[arreheh.length-1].rating} star review, and their feedback was: ${arreheh[arreheh.length-1].feedback}`
 } 
 
 
